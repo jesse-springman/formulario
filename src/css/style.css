@@ -1,0 +1,104 @@
+body{
+font-size: 15px;
+font-weight: 400;
+}
+
+.container{
+    background: url(../desafio3/bg-repeat.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.container .conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container .conteudo .descricao{
+    max-width: 300px;
+    margin: 0 60px 0 50px;
+}
+
+
+
+.container .conteudo .descricao .titulo{
+   font-size: 20px;
+   font-weight: 900;
+   margin-bottom: 11px;
+}
+
+.container .conteudo .formulario{
+    background-color: #fff;
+    width: 340px;
+    height: 378px;
+    padding: 20px;
+    position: relative;
+}
+
+.container .conteudo .formulario .input{
+    width: 298px;
+    height: 35px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+
+.container .conteudo .formulario .mensagem{
+    height: 100px;
+}
+.container .conteudo .formulario .aviso-obrigatorio{
+  color: #000;
+  margin: -5px 0 12px 0;
+}
+
+.container .conteudo .formulario .enviar{
+    width: 298px;
+    height: 41px;
+    background-color: #3CCC87;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .conteudo .formulario .campos{
+    position: relative;
+   
+}
+
+.branco{
+    color: #fff;
+}
+
+
+
+.container .conteudo .formulario  .nao-preenchido{
+   position: absolute;
+   top: 35px;
+   font-size: 8px;
+   color: #F52E2E;
+  display: none;
+}
+ 
+.container .conteudo .formulario  .nao-preenchido.mostrar{
+    display: block;
+}
+
+
+.container .conteudo .formulario .campos .nao-preenchido.campo-mensagem{
+    top: 101px;
+}
+
+
+.container .conteudo .formulario .campos .borda-red{
+    border: 1px solid  #F52E2E;
+}
+
+.container .conteudo .formulario .campos .borda-green{
+    border:1px solid #00C22B ;
+}
+

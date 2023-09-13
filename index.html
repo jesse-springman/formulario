@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="conteudo">
+            <div class="descricao">
+                <h2 class="titulo branco">
+                    FICOU COM DÚVIDA?
+                    <br>
+                    NOS MANDE UMA MENSAGEM!
+                </h2>
+
+                <p class="branco">
+                    caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de 24h.
+                </p>
+            </div>
+
+
+            <form action="#" class="formulario">
+
+                <div class="campos">
+                    <input class="input" type="text" placeholder=" Nome completo *">
+
+                    <p class="nao-preenchido">Campo obrigatório </p>
+                </div>
+
+
+                <div class="campos">
+                    <input class="input" type="email" placeholder=" Email *">
+
+                    <p class="nao-preenchido">Campo obrigatório </p>
+                </div>
+
+
+                <div class="campos">
+                    <input class="input" type="number" placeholder=" Telefone *">
+
+                    <p class="nao-preenchido">Campo obrigatório </p>
+                </div>
+
+
+                <div class="campos">
+                    <textarea placeholder=" Mensagem *" class="input mensagem" id="mensagem"></textarea>
+
+
+                    <p class="nao-preenchido campo-mensagem">Campo obrigatório </p>
+                </div>
+
+
+
+
+                <p class="aviso-obrigatorio">*campos obrigatórios</p>
+
+
+
+                <input class="enviar branco" id="enviar" type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+
+
+
+    <script src="./src/js/formulario.js"></script>
+</body>
+
+</html>
