@@ -14,6 +14,7 @@ enviar.addEventListener('click', ()=>{
         if(item.value === ""){
         
        item.classList.add('borda-red');
+       item.classList.remove('borda-green')
        mensagemErro[indice].classList.add('mostrar');
        }
    

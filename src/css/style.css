@@ -1,13 +1,16 @@
 body{
 font-size: 15px;
 font-weight: 400;
+background: url(../desafio3/bg-repeat.jpg);
+background-size: 100% 100%;
+height: 100vh;
+font-family: 'Roboto', sans-serif;
+overflow: hidden;
+width: 100vw;
 }
 
 .container{
-    background: url(../desafio3/bg-repeat.jpg);
-    background-size: 100% 100%;
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
+
    
 }
 
@@ -33,23 +36,28 @@ font-weight: 400;
 
 .container .conteudo .formulario{
     background-color: #fff;
-    width: 340px;
-    height: 378px;
+    max-width: 340px;
+    max-height: 378px;
     padding: 20px;
     position: relative;
+    width: 100%;
 }
 
 .container .conteudo .formulario .input{
     width: 298px;
+    max-width: 100%;
     height: 35px;
     margin-bottom: 15px;
     border: 1px solid;
     border-radius: 4px;
+    width: 100%;
 }
 
 
 .container .conteudo .formulario .mensagem{
     height: 100px;
+    resize: none;
+
 }
 .container .conteudo .formulario .aviso-obrigatorio{
   color: #000;
@@ -67,7 +75,7 @@ font-weight: 400;
 
 .container .conteudo .formulario .campos{
     position: relative;
-   
+    
 }
 
 .branco{
